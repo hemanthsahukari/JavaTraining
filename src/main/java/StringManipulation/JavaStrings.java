@@ -38,6 +38,14 @@ public class JavaStrings {
         for(String s: strArr){
             System.out.println(s.trim());
         }
+        //concatenates the string
+        String s5=str.concat(" , HeMaNtH , hEmAnTh");
+        System.out.println("s5 is: "+s5);
+
+        //Compare another string without matching the case
+        boolean s6= str.equalsIgnoreCase("HEMANTH");
+        System.out.println("s6 is: "+s6);
+
     }
 
 }
