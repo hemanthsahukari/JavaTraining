@@ -46,6 +46,7 @@ public class JavaStrings {
         boolean s6= str.equalsIgnoreCase("HEMANTH");
         System.out.println("s6 is: "+s6);
 
+
     }
 
 }
