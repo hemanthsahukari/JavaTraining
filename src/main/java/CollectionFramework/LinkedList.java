@@ -82,3 +82,6 @@ class Example2 {
         System.out.println("Head of the list : " + list.peek());
     }
 }
+
+
+
