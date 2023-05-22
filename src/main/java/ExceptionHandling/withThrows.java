@@ -7,7 +7,7 @@ public class withThrows {
     public static void findFile() throws IOException {
 
         // code that may generate IOException
-        File newFile = new File("test.txt");
+        File newFile = new File("File.txt");
         FileInputStream stream = new FileInputStream(newFile);
     }
 
