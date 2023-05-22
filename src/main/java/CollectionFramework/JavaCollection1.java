@@ -13,18 +13,15 @@ class JavaCollection1 {
     public static void main(String[] args) {
         ArrayList<String>list=new ArrayList<String>();
 
-
         list.add("Hemanth");
         list.add("GJHFHJS");
         list.add("jgfjgf");
-        Iterator itr=list.iterator();
+        Iterator<String> itr=list.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
 
-
-
-        }
+    }
 
 }
 
@@ -36,6 +33,10 @@ class main{
         al.add("iugehgbf");
         al.add("hkjefrjhg");
         Iterator itr=al.iterator();
+        /*Traversing the list of elements in reverse order
+            Iterator itr=al.descendingIterator();
+         */
+
         while(itr.hasNext()){
             System.out.println(itr.next());
         }

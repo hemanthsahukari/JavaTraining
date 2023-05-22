@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Collections;
 import java.util.ArrayList;
-public class Example  {
+class Example  {
     public static void main(String[] args) {
         List<String> list1 = new ArrayList<>();
         list1.add("hemanth");
